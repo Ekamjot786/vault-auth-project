@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE = 'http://localhost:8000/api/auth';
+const API_BASE = 'https://vault-auth-project-production.up.railway.app/api/auth';
 
 const api = axios.create({
   baseURL: API_BASE,
